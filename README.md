@@ -1,4 +1,10 @@
 # Universal Website Scraper
+<p align="center">
+  <img src="Screenshot.png" alt="Universal Website Scraper UI" width="900"/>
+</p>
+
+A full-stack web scraping application that extracts structured data from any website, handling both static and JavaScript-rendered content.
+
 
 A full-stack web scraping application that extracts structured data from any website, handling both static and JavaScript-rendered content.
 
