@@ -100,21 +100,7 @@ curl -X POST http://localhost:8000/scrape \
 
 The following URLs were used for testing and validation:
 
-### 1. Wikipedia - Artificial Intelligence
-**URL**: `https://en.wikipedia.org/wiki/Artificial_intelligence`
-
-**Type**: Static HTML page
-
-**Purpose**: Tests static scraping capabilities. Contains well-structured sections with headings, paragraphs, lists, tables, and images. Excellent for validating section extraction and metadata parsing.
-
-**What it tests**:
-- Static HTML parsing
-- Section detection using landmarks (`<main>`, `<section>`)
-- Metadata extraction (title, description, language, canonical)
-- Content extraction (headings, text, links, images, lists, tables)
-- Absolute URL conversion
-
-### 2. Vercel Homepage
+### 1. Vercel Homepage
 **URL**: `https://vercel.com/`
 
 **Type**: JavaScript-heavy SPA with interactive elements
@@ -129,7 +115,7 @@ The following URLs were used for testing and validation:
 - Noise filtering (cookie banners, modals)
 - Dynamic content extraction
 
-### 3. Hacker News
+### 2. Hacker News
 **URL**: `https://news.ycombinator.com/`
 
 **Type**: Paginated content (depth ≥ 3)
